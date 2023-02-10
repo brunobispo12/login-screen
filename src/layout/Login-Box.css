@@ -1,0 +1,71 @@
+
+section#login-screen{
+    background-color: #fff;
+    width: 400px;
+    height: 475px;
+    border-radius: 20px;
+    font-family: var(--default-font);
+    color: #6C2F6F;
+    box-shadow: 5px 3px 3px #3B1F2B;
+}
+
+.content-login{
+    margin-top: 7%;
+}
+
+h1{
+    font-family: var(--bold-font);
+}
+
+.text{
+    margin-top: 1em;
+    padding-left: 10%;
+}
+
+.text > h1{
+    font-size: 2.5rem;
+}
+
+.Inputs{
+    padding-left: 10%;
+    margin-top: 1.5em;
+    height: 150px;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sigin{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: var(--bold-font);
+}
+
+.sigin > a {
+    text-decoration: none;
+    color: #D972FF;
+    margin-left: 5px;
+}
+
+.sigin > a:hover{
+    color: #D972FFcc;
+}
+
+.forgot-password{
+    margin-top: -3px;
+    font-size: 0.9em;
+    font-family: var(--bold-font);
+}
+
+.forgot-password > a {
+    text-decoration: none;
+    color: #D972FF;
+}
+
+.forgot-password > a:hover{
+    color: #D972FFcc;
+}

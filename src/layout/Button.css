@@ -1,0 +1,36 @@
+button{
+    display: flex;
+    justify-content: center;
+    font-family: var(--bold-font);
+    font-size: 1.5em;
+    width: 45%;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #6C2F6F;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.effect{
+    background-color: blueviolet;
+}
+
+.effect::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    transition: all 1.5s ease-in-out;
+}
+
+.effect:hover::before{
+    width: 100%;
+}
+
